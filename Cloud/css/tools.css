@@ -1,0 +1,52 @@
+body {
+    font-family: "Microsoft YaHei", arial, SimSun, 宋体;
+    color: #424e67;
+    font-size: 14px;
+}
+
+a {
+    color: #424e67;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.fd-left {
+    float: left;
+}
+
+.fd-right {
+    float: right;
+}
+
+.item-hover-color {
+    background-color: #f1f5fa;
+}
+
+/*----------------*/
+.icofont {
+    font-family: 'icomoon' !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+@font-face {
+    font-family: 'Conv-yunfont';
+    src: url('fonts/yunfont .eot');
+    src: local('☺'), url('fonts/yunfont .woff') format('woff'), url('fonts/yunfont .ttf') format('truetype'), url('fonts/yunfont .svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,19 @@
+.dir-large {
+    background: url("../img/Folder_54.png") no-repeat center center;
+    /*background: url("../img/Folder_54_fe544cc.png") no-repeat center center;*/
+}
+
+.default-large {
+    background: url("../img/Misc_54.png") no-repeat center center;
+}
+
+
+
+
+/*小图标*/
+.dir-small{
+    background: url("../img/all_z_9044f53.png") no-repeat -594px -416px;
+}
+.default-small{
+    background: url("../img/all_z_9044f53.png") no-repeat -597px -120px;
+}

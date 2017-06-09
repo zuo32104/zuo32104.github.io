@@ -1,0 +1,401 @@
+#module-tip {
+    margin-top: 8px;
+    position: fixed;
+    _position: absolute;
+    padding: 0 10px;
+    background: #f9edbe;
+    border: 1px solid #f7d997;
+    border-radius: 2px;
+    color: #7b6a51;
+    height: 27px;
+    font-family: 'Microsoft YaHei',SimSun;
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    z-index: 95;
+    overflow: hidden;
+    display: none;
+}
+#module-tip .tip-msg {
+    display: block;
+    line-height: 27px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    max-width: 400px;
+    min-width: 1px;
+}
+#module-tip .tip-msg, #module-tip .tip-icon, #module-tip .tip-close {
+    float: left;
+    display: block;
+}
+
+/*--遮罩-----------------*/
+
+#module-shade{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*-弹窗---*/
+.dialog {
+    position: absolute;
+    box-shadow: none;
+    overflow: hidden;
+    border: 0;
+    font-size: 12px;
+}
+
+.dialog {
+    position: fixed;
+    _position: absolute;
+    border: 1px solid #ced1d9;
+    background: #fff;
+    box-shadow: 0 0 3px #ced1d9;
+    -webkit-transtion: bottom .1s;
+    border-radius: 4px;
+    display: none;
+    font-family: 'Microsoft YaHei',SimSun;
+    _overflow-x: hidden;
+}
+
+.dialog .dialog-min-header, .dialog .dialog-header {
+    background-color: #f7faff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid #c4dbfe;
+    height: 44px;
+    line-height: 44px;
+    font-weight: 200;
+}
+
+.dialog .dialog-min-header, .dialog .dialog-header {
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid #ced1d9;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.dialog .dialog-drag {
+    cursor: move;
+}
+
+.dialog .dialog-header-title {
+    display: block;
+    margin-right: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dialog .dialog-min-header h3, .dialog .dialog-header h3 {
+    color: #424e67;
+}
+
+.dialog .dialog-min-header h3, .dialog .dialog-header h3 {
+    position: relative;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.dialog .dialog-min-header .select-text, .dialog .dialog-header .select-text {
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    -o-user-select: initial;
+    user-select: initial;
+}
+
+.dialog .dialog-header-title .select-text {
+    font-style: normal;
+    cursor: text;
+}
+
+.dialog .dialog-header-title em {
+    font-style: normal;
+    cursor: text;
+    font-weight: 200;
+}
+
+.dialog .dialog-body {
+    background: 0 0;
+}
+
+.dialog .dialog-body {
+    background: #fff;
+    line-height: 24px;
+}
+
+.dialog-confirm.dialog .dialog-footer {
+    padding-bottom: 34px;
+}
+
+.dialog .dialog-footer {
+    padding-bottom: 15px;
+}
+
+.dialog .dialog-footer {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.global-clearfix, .g-clearfix {
+    zoom: 1;
+}
+
+.g-button:link, .g-button:visited {
+    color: #3b8cff;
+}
+
+.g-button:link, .g-button:visited {
+    color: #666;
+}
+
+.g-button-blue-large {
+    border: 1px solid #3b8cff;
+    background: #3b8cff;
+}
+
+.g-button-large, .g-button-blue-large {
+    padding-left: 10px;
+    height: 32px;
+}
+
+.g-button {
+    text-decoration: none;
+    color: #3b8cff;
+    border: 1px solid #c0d9fe;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.g-button-blue-large {
+    height: 37px;
+    font-size: 14px;
+    line-height: 34px;
+    background-color: #478de4;
+    border: 1px solid #478de4;
+}
+
+.g-button {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    /*margin: 0 5px;*/
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: top;
+    white-space: nowrap;
+    text-decoration: none;
+    border: 1px solid #d4d4d4;
+    color: #666;
+    outline: 0;
+    border-radius: 2px;
+}
+
+.g-button-large .g-button-right, .g-button-blue-large .g-button-right {
+    height: 32px;
+    line-height: 32px;
+
+}
+
+.g-button-blue-large .g-button-right {
+    height: 37px;
+    line-height: 34px;
+}
+
+.g-button-right {
+    height: 32px;
+    line-height: 32px;
+    padding-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.g-button-right {
+    position: relative;
+    right: -1px;
+    display: block;
+    height: 29px;
+    padding-right: 15px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.g-button:link, .g-button:visited {
+    color: #3b8cff;
+}
+
+.g-button:hover {
+    color: #77afff!important;
+    border: 1px solid #c0d9fe;
+}
+
+/*.g-button-large:hover {*/
+    /*color: #5996e6;*/
+    /*border: 1px solid #5996e6;*/
+/*}*/
+
+.g-button:active {
+    color: #666;
+}
+.g-button-blue-large .g-button-right .text,
+.g-button-blue-large:hover .g-button-right .text,
+.g-button-blue-large:active .g-button-right .text {
+    color: #fff;
+}
+
+
+/*------------------------*/
+
+.treeview-node-on, .treeview-node-on:link,
+.treeview-node-on:visited, .treeview-node-on:hover,
+.treeview-node-on:active {
+    background: #e5f0fb;
+    border-color: #BBD4EF #fff;
+}
+
+.treeview-node, .treeview-node:link,
+.treeview-node:visited,
+.treeview-node-handler {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.treeview-node,
+.treeview-node:link,
+.treeview-node:visited {
+    border: 1px solid #fff;
+    border-width: 1px 0;
+    color: #2974B6;
+    cursor: pointer;
+}
+
+.treeview-node-handler {
+    padding: 4px 0;
+    color: #333;
+}
+
+.treeview-node,
+.treeview-node:link,
+.treeview-node:visited,
+.treeview-node-handler {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+.treeview .plus {
+    margin: 0 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.treeview .b-in-blk {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.treeview .icon-operate {
+    background: url(../img/icon-tree.png) -30px 0 no-repeat;
+}
+
+.treeview .b-in-blk {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+
+._minus .treeview-ic, .treeview-root .treeview-ic {
+    margin-right: 5px;
+    height: 18px;
+    width: 22px;
+    background-position: 0 -22px;
+}
+
+.treeview-ic {
+    width: 22px;
+    height: 18px;
+    margin-right: 5px;
+    background: url(../img/icon-tree.png) 0 0 no-repeat;
+}
+
+.treeview-node-handler {
+    padding: 4px 0;
+    color: #333;
+}
+
+/*.treeview-node .minus {*/
+    /*background-position: -30px -22px;*/
+/*}*/
+
+#fileTreeDialog .file-tree-container {
+    height: 200px;
+    margin: 10px 11px;
+    border: 1px solid #f2f2f2;
+    overflow: auto;
+}
+
+.treeview-collapse {
+    display: none;
+}
+
+.treeview .treenode-empty .plus {
+    background-position: -999px -999px;
+}
+
+
+
+.treeview .plus {
+    margin: 0 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-position: -30px 0;
+}
+
+.treeview .b-in-blk {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.treeview-node .minus {
+    background-position: -30px -22px;
+}
+
+.treeview-node-hover {
+    background: #f4f9fd;
+    border-color: #e5f0fb;
+}

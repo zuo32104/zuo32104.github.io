@@ -1,0 +1,93 @@
+.context-menu {
+    position: absolute;
+    font-size: 13px!important;
+    color: #000!important;
+    top: 0;
+    left: 0;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.context-menu .list {
+    border: 1px solid #dde0e4;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+
+.context-menu .list {
+  min-height: 23px;
+  padding: 2px 0;
+  position: absolute;
+  background-color: #FFF;
+  color: #000;
+}
+
+.context-menu ul{
+    display: none;
+}
+.context-menu ul, .context-menu li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px!important;
+  color: #5b667b!important;
+}
+
+.context-menu .list li {
+    display: list-item;
+    cursor: default;
+    height: 23px;
+    line-height: 23px;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    padding: 0 27px 0 20px;
+
+}
+
+.context-menu ul, .context-menu li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px!important;
+  color: #5b667b!important;
+}
+
+.context-menu .list li.li-hover {
+    background-color: #4281F4;
+    color: #FFF!important;
+}
+/*.context-menu .list li:hover .list{*/
+    /*display: block;*/
+/*}*/
+
+.context-menu .arrowicon {
+    background: url('../img/arrows.png') right center no-repeat;
+}
+
+.context-menu .list .disable, .context-menu .list .disable:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    color: #A1A192!important;
+    background-color: #FFF;
+    background: none;
+}
+
+.context-menu .arrowicon.list-hover, .context-menu .arrowicon.open {
+    background-image: url(../img/arrowswhite.png);
+}
+.context-menu .icon-menu-point:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #4281f4;
+    border-radius: 4px;
+    top: 8px;
+    left: 8px;
+    font-size: 12px;
+}

@@ -1,0 +1,174 @@
+/*绝对定位*/
+.frame-all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eff4f8;
+}
+
+/*顶部菜单栏---------------------------------------------------*/
+.frame-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 62px;
+    background-color: #eff4f8;
+    min-width: 1318px;
+}
+
+.frame-menu .top-menu {
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 16px);
+}
+
+.frame-menu .top-menu .yun-header {
+    float: left;
+    width: 142px;
+    height: 34px;
+    margin: 0px 0 8px 20px;
+    background: url("../img/logo.png") no-repeat top right;
+    text-indent: -9999px;
+}
+
+.frame-menu .top-menu .yun-header a {
+    display: block;
+    height: 100%;
+
+}
+
+.frame-menu .top-menu .yun-links {
+    float: left;
+    height: 32px;
+    padding-left: 36px;
+    margin: 0;
+}
+
+.frame-menu .top-menu .yun-links .links-item {
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+
+.frame-menu .top-menu .yun-links .links-item a {
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.frame-menu .top-menu .yun-links .links-item:hover .subscript {
+    display: block;
+}
+
+.frame-menu .top-menu .yun-links .links-item .subscript {
+    display: none;
+    width: 90%;
+    height: 4px;
+    background: #3b8cff;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+
+.frame-menu .top-menu .yun-info {
+    float: right;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.frame-menu .top-menu .yun-info .app-user-info {
+
+}
+
+.frame-menu .top-menu .yun-info .app-user-info .user-photo-box {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #d8dce0;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.frame-menu .top-menu .yun-info .app-user-info .user-photo-box i {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/9096b334.jpg");
+    background-size: 100%;
+}
+
+.frame-menu .top-menu .yun-info .app-user-info .user-name {
+    float: left;
+    margin-left: 10px;
+    line-height: 34px;
+}
+
+.frame-menu .top-menu .yun-info .app-user-info .user-rank {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 7px 5px;
+    background: url("../img/user-level0.png") no-repeat;
+}
+
+.frame-menu .top-menu .yun-info .app-user-info .img-ico {
+    float: left;
+    width: 19px;
+    font-style: normal;
+
+    line-height: 34px;
+}
+
+
+
+.frame-menu .top-menu .yun-info .line {
+    float: left;
+    width: 1px;
+    height: 13px;
+    background-color: #adb3be;
+    margin: 5px 0px 5px 10px;
+}
+
+.frame-menu .top-menu .yun-info a {
+    margin-left: 10px;
+    line-height: 34px;
+
+}
+
+.frame-menu .top-menu .yun-info .app-download {
+
+}
+
+.frame-menu .top-menu .yun-info .ico-inform,
+.frame-menu .top-menu .yun-info .ico-suggest,
+.frame-menu .top-menu .yun-info .ico-skin {
+    font-size: 16px;
+}
+
+.frame-menu .top-menu .yun-info .VIP {
+    background-color: #f8645c;
+    padding: 0 17px;
+    border-radius: 13px;
+    color: #fff;
+    line-height: 26px;
+}
+
+.frame-menu .top-menu .yun-onico {
+    float: right;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.frame-menu .top-menu .yun-onico .union-hot {
+    margin-right: 8px;
+    color: #f8645c;
+}

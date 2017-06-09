@@ -1,0 +1,1158 @@
+.frame-all{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+/*左侧栏-------------------------------------------------------------*/
+.frame-left {
+    position: absolute;
+    width: 194px;
+    top: 62px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    min-height:500px;
+}
+
+.frame-left .module-aside {
+    height: 100%;
+    position: relative;
+}
+
+/*-------------复合样式*/
+.frame-left .module-aside .menu-list,
+.middle-button-container,
+.bottom-button-container {
+
+}
+
+.frame-left .menu-list .list-item,
+.middle-button-container .item,
+.bottom-button-container .item {
+    height: 38px;
+}
+
+.frame-left .menu-list .list-item a,
+.middle-button-container .item a,
+.bottom-button-container .item a {
+    display: block;
+    padding-left: 15px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.frame-left .menu-list .list-item a:hover,
+.middle-button-container .item a:hover,
+.bottom-button-container .item a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.frame-left .menu-list .list-item a.active,
+.middle-button-container .item a.active,
+.bottom-button-container .item a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.frame-left .menu-list .list-item a .text,
+.middle-button-container .item a .text,
+.bottom-button-container .item a .text {
+    height: 38px;
+    padding-left: 38px;
+    position: relative;
+}
+
+.frame-left .menu-list .list-item a .text .img-ico,
+.middle-button-container .item a .text .img-ico,
+.bottom-button-container .item a .text .img-ico {
+    position: absolute;
+    left: 8px;
+    top: -8px;
+    /*font-size: 30px;*/
+}
+
+/*最下小图标*/
+.frame-left .aside-absolute-container {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.frame-left .aside-absolute-container .remaining-quota {
+    padding: 8px 20px;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar {
+    overflow: hidden;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar .quota-full {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    position: relative;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar .quota-full .quota-perc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 8px;
+    width: 35px;
+    background-color: rgb(146, 239, 85);
+    border-radius: 4px;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar .remainingSpace {
+    float: left;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.frame-left .remaining-quota .bar .remainingSpace .quota-used,
+.frame-left .remaining-quota .bar .remainingSpace .quota-total {
+    font-size: 12px;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar .add {
+    float: right;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.frame-left .aside-absolute-container .remaining-quota .bar .add a {
+    font-size: 12px;
+    color: #3b8cff;
+}
+
+.frame-left .side-options {
+
+}
+
+.frame-left .side-options .side-lalldownload {
+    display: block;
+    height: 44px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.frame-left .side-options .side-lalldownload a {
+    font-size: 18px;
+    padding: 0 5px;
+    line-height: 44px;
+}
+
+/*右侧主内容----------------------------------------------------------*/
+.frame-main {
+    border-top: 1px solid #d8dfea;
+    border-left: 1px solid #d8dfea;
+    border-right: 1px solid #d8dfea;
+    position: absolute;
+    left: 194px;
+    top: 62px;
+    right: 10px;
+    bottom: 0px;
+    margin-left: -1px;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+    overflow: hidden;
+    height: 100%;
+    min-width:1115px;
+    min-height:600px;
+}
+
+.frame-main .module-toolbar {
+    height: 55px;
+    padding: 3px 0;
+
+}
+
+.frame-main .module-toolbar .default-dom {
+    width: 100%;
+    height: 55px;
+}
+
+.frame-main .module-toolbar .default-dom .list-grid-switch {
+    float: right;
+    margin: 12px 18px 10px 0;
+    text-align: center;
+}
+
+.frame-main .module-toolbar .default-dom .list-grid-switch .list-switch,
+.frame-main .module-toolbar .default-dom .list-grid-switch .grid-switch {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    display: none;
+}
+
+.frame-main .module-toolbar .default-dom .sort-switch {
+    float: right;
+    margin: 12px 5px 10px 0;
+    position: relative;
+}
+
+.frame-main .module-toolbar .default-dom .sort-switch .sort-switch-btn {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.frame-main .module-toolbar .default-dom .sort-switch .sort-switch-btn .icon-order {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.frame-main .module-toolbar .sort-switch .sort-switch-list {
+    position: absolute;
+    z-index: 100;
+    display: none;
+    right: 0;
+    top: 38px;
+    width: 100px;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #c0d9fe;
+}
+
+.frame-main .module-toolbar .sort-switch-list .sort-item {
+    display: block;
+    padding: 5px 10px;
+    text-align: left;
+    cursor: pointer;
+    color: #3B8CFF;
+    position: relative;
+    text-indent: 23px;
+    font-size: 14px;
+}
+
+
+
+.frame-main .module-toolbar .sort-switch-list .sort-item:hover {
+    background: #f6faff;
+}
+
+.frame-main .module-toolbar .sort-item .icon-sort-select {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+    text-indent: 0;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search {
+    float: right;
+    width: 315px;
+    height: 30px;
+    margin: 12px 8px 12px 0;
+    position: relative;
+    background-color: #f1f2f4;
+    border-radius: 15px;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search .form-box {
+    padding-left: 15px;
+    padding-right: 54px;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search .form-box .search-form {
+    position: relative;
+    height: 30px;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search .form-box .search-form .search-query {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search .form-box .search-form .icon-search-del {
+    position: absolute;
+    right: -25px;
+    top: 0;
+    /*font-size: 26px;*/
+    cursor: pointer;
+    line-height: 30px;
+    display: none;
+}
+
+.frame-main .module-toolbar .default-dom .bar-search .form-box .search-form .search-button {
+    position: absolute;
+    right: -45px;
+    top: 0;
+    /*font-size: 26px;*/
+    cursor: pointer;
+    line-height: 30px;
+}
+
+/*.frame-main .module-toolbar .default-dom .bar-search .form-box .search-form .input-placeholder {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 14px;
+    line-height: 30px;
+}*/
+
+/*左侧搜索栏*/
+
+.frame-main .module-toolbar .default-dom .bar {
+    position: relative;
+    height: 36px;
+    padding: 11px 10px;
+    margin-right: 420px;
+}
+
+.frame-main .module-toolbar .default-dom .bar .tools {
+    float: left;
+    position: relative;
+    height: 36px;
+}
+
+.frame-main .module-toolbar .default-dom .bar .dropdown-button {
+    float: left;
+    height: 36px;
+    margin: 0 5px;
+}
+
+.frame-main .module-toolbar .default-dom .bar .dropdown-button .g-button {
+    height: 34px;
+    border: 1px solid #3b8cff;
+    float: left;
+    border-radius: 5px;
+
+}
+
+.frame-main .module-toolbar .default-dom .bar .dropdown-button .g-button .button-right {
+    float: left;
+}
+
+.frame-main .module-toolbar .default-dom .bar .dropdown-button .g-button .icon-upload {
+    padding-left: 10px;
+    float: left;
+    /*font-size: 30px;*/
+    font-style: normal;
+    line-height: 34px;
+    color: #3b8cff;
+}
+
+.frame-main .module-toolbar .default-dom .bar .dropdown-button .g-button .text {
+    float: left;
+    line-height: 34px;
+    color: #3b8cff;
+    padding: 0 15px 0 5px;
+}
+
+/*-----------------------------------------*/
+.frame-main .module-toolbar .default-dom .bar .button-box-mark {
+    position: relative;
+    height: 36px;
+    margin-left: 240px;
+    display: none;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark.active {
+    display: block;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button {
+    float: left;
+    height: 34px;
+    border: 1px solid #3b8cff;
+    /*padding: 0 10px;*/
+    margin-right: -1px;
+    color: #3b8cff;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button.g-disabled{
+    color: #9DC5FF;
+    _border:1px solid #9DC5FF;
+}
+
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button:nth-of-type(1) {
+    border-radius: 5px 0 0 5px;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button:nth-last-of-type(1) {
+    border-radius: 0 5px 5px 0;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button .g-button-right {
+    float: left;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button .g-button-right .icon-share {
+    float: left;
+    /*font-size: 26px;*/
+    font-style: normal;
+    line-height: 34px;
+    padding-right: 6px;
+}
+
+.frame-main .module-toolbar .default-dom .bar .button-box-mark .g-button .g-button-right .text {
+    float: left;
+    font-style: normal;
+    line-height: 34px;
+}
+
+/*------xia---------------------------------------*/
+.frame-main .module-list {
+    width: 100%;
+    position: relative;
+}
+
+/*全部文件面包屑导航栏*/
+.frame-main .module-history-list {
+    height: 16px;
+    padding: 0 16px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.frame-main .module-history-list .history-list-dir,
+.frame-main .module-history-list .history-list-tips {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.frame-main .historylistmanager-history {
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 16px;
+    display: none;
+}
+
+.frame-main .historylistmanager-history.active {
+    display: block;
+}
+
+.frame-main .historylistmanager-history li {
+    float: left;
+}
+
+.frame-main .historylistmanager-history li a,
+.frame-main .historylistmanager-history li span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #4287ed;
+
+}
+
+.frame-main .historylistmanager-history .historylistmanager-separator-gt {
+    margin-right: 2px;
+}
+
+.frame-main .historylistmanager-history li:nth-last-of-type(1) a:nth-last-of-type(1) {
+    color: #747474;
+    pointer-events: none;
+}
+
+.frame-main .historylistmanager-history li span {
+    color: #c8d8f3;
+}
+
+.frame-main .historylistmanager-history li a:hover {
+    text-decoration: underline;
+}
+
+.frame-main .list-view-header {
+    height: 36px;
+
+    border-bottom: 1px solid rgb(242, 246, 253);;
+}
+
+.frame-main .list-view-header .list-header {
+    height: 36px;
+    position: relative;
+}
+
+.frame-main .list-view-header .list-header .grid-cols {
+    display: none;
+}
+
+.frame-main .list-view-header .list-header .grid-cols .col-item {
+    padding-left: 16px;
+}
+
+.frame-main .list-view-header .list-header .grid-cols .check-icon {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #d6dce5;
+    position: relative;
+    margin-top: 11px;
+    margin-right: 10px;
+    line-height: 12px;
+    color: #3b8cff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.frame-main .list-view-header .list-header .grid-cols .check-icon.all-folder:before {
+    content: "\e932";
+}
+
+.frame-main .list-view-header .list-header .grid-cols .check-all-text {
+    float: left;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+
+.frame-main .list-view-header .list-header-operatearea {
+    float: left;
+    margin-left: 41px;
+    width:100%;
+    height: 36px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 36px;
+    background: #fff;
+    display: none;
+}
+
+.frame-main .list-view-header.list-header-operatearea .list-header-operatearea {
+    display: block;
+}
+
+/*列表的面包屑显示信息*/
+.frame-main .list-view-header .list-cols {
+    font-size: 12px;
+    line-height: 36px;
+    display: none;
+}
+
+.frame-main .list-view-header .list-cols li:hover {
+    background: #f6faff;
+}
+
+.frame-main .list-view-header .first-col {
+    float: left;
+    width: 60%;
+    height: 36px;
+    position: relative;
+}
+
+.frame-main .list-view-header .first-col .col-item {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: 16px;
+}
+
+.frame-main .list-view-header .first-col .col-item .check-icon {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #d6dce5;
+
+    position: relative;
+    margin-top: -1px;
+    margin-right: 10px;
+    line-height: 12px;
+    color: #3b8cff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.frame-main .list-view-header .first-col .col-item .check-icon.all-folder:before {
+    content: '\e932';
+}
+
+.frame-main .list-view-header .first-col .col-item .check-all-text {
+    display: none;
+}
+
+.frame-main .list-view-header .first-col .text {
+    float: left;
+    text-indent: 42px;
+
+}
+
+.frame-main .list-view-header .list-cols .downtitle-up,
+.frame-main .list-view-header .list-cols .downtitle-down {
+    font-size: 12px;
+    color: #3b8cff;
+    display: none;
+}
+
+.frame-main .list-view-header .list-cols .col-info {
+    float: left;
+    width: 16%;
+    text-indent: 10px;
+}
+
+.frame-main .list-view-header .list-cols .last-col {
+    float: left;
+    width: 24%;
+    text-indent: 10px;
+}
+
+/*缩略图的的*/
+.frame-main .grid-view-container,
+.frame-main .grid-view-container .module-grid-view,
+.frame-main .grid-view-container .grid-view {
+    width: 100%;
+
+}
+
+
+.frame-main .grid-view-container {
+    display: none;
+    min-height:500px;
+}
+
+.frame-main .grid-view-container .grid-view dd {
+    width: 100%;
+    height: 135px;
+}
+
+.frame-main .grid-view-container .grid-view-item {
+    float: left;
+    width: 120px;
+    height: 127px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 4px 0 0 6px;
+    position: relative;
+
+}
+
+/*文件夹hover 和 active*/
+.frame-main .grid-view-container .grid-view-item:hover {
+    background-color: #f1f5fa;
+}
+
+.frame-main .grid-view-container .grid-view-item:hover .checkgridsmall {
+    color: #b0d1ff;
+    display: block;
+}
+
+.frame-main .grid-view-container .grid-view-item.item-active {
+    border: 1px solid #90c3fd;
+    background-color: #f1f5fa;
+}
+
+.frame-main .grid-view-container .grid-view-item .fileicon {
+    width: 84px;
+    height: 84px;
+    margin: 9px 18px 0;
+}
+
+.frame-main .grid-view-container .grid-view-item .file-name {
+    margin: 5px;
+    text-align: center;
+}
+.frame-main  .grid-view-item .file-name.rename{
+
+}
+
+.frame-main .grid-view-item .filename {
+    font-size: 12px;
+    display: block;
+}
+
+.frame-main .grid-view-item .file-name.rename .filename{
+    display: none;
+}
+
+.frame-main .grid-view-item .filename:hover {
+    color: #3b8cff;
+}
+
+/*文件名字修改框*/
+.frame-main .grid-view-item .file-name.rename .filename-info{
+    display: block;
+}
+.frame-main .grid-view-item .filename-info {
+    position: absolute;
+    left: -5px;
+    bottom: 10px;
+    width: 140px;
+    height: 24px;
+    z-index: 999;
+    display: none;
+
+}
+
+
+.frame-main .grid-view-item .filename-input {
+    float: left;
+    width: 80px;
+    height: 22px;
+    margin: 1px;
+    border: 1px solid #a6c9fc;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.frame-main .grid-view-item .filename-confirm,
+.grid-view-item .filename-cancel {
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 1px;
+    border: 1px solid #cce0fb;
+    color: #5b9ffe;
+    line-height: 22px;
+    background: #f1f5fa;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.frame-main .grid-view-item .checkbox {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    top: 5px;
+    /*display: none;*/
+}
+
+.frame-main .grid-view-item.check .checkbox .checkgridsmall {
+    color: #3b8cff;
+}
+
+.frame-main .grid-view-item .checkgridsmall {
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #b0d1ff;
+    display: none;
+}
+
+.frame-main .grid-view-container .grid-view-item .checkgridsmall:hover {
+    color: #9dc6ff;
+}
+
+.frame-main .grid-view-container .grid-view-item.item-active .checkgridsmall {
+    color: #3b8cff;
+    display: block;
+}
+
+/*列表模式的*/
+.frame-main .list-view-container,
+.frame-main .module-list-view,
+.frame-main .list-view {
+    width: 100%;
+
+}
+
+.frame-main .list-view-container {
+    display: none;
+    min-height:500px;
+}
+
+.frame-main .list-view dd {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #f2f6fd;
+    position: relative;
+    line-height: 44px;
+    font-size: 12px;
+}
+
+.frame-main .list-view dd:hover {
+    background: #f6faff;
+}
+
+.frame-main .list-view dd.item-active {
+    background: #f6faff;
+}
+
+.frame-main .list-view .checkbox {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 32px;
+    height: 44px;
+
+}
+
+.frame-main .list-view .checkbox .checksmall {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    width: 12px;
+    height: 12px;
+    border: 1px solid #d6dce5;
+    color: #3b8cff;
+    font-size: 12px;
+    line-height: 12px;
+    /*display: none;*/
+}
+
+.frame-main .list-view dd.item-active .checkbox .checksmall:before {
+    content: '\E932';
+}
+
+.frame-main .list-view .fileicon {
+    position: absolute;
+    left: 43px;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+}
+
+.frame-main .list-view .file-name {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 44px;
+}
+
+.frame-main .list-view .file-name .text {
+    text-indent: 80px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.frame-main .list-view .file-name .filename {
+    font-size: 12px;
+}
+
+.frame-main .list-view .file-name .filename:hover {
+    color: #4b95ff;
+}
+
+.frame-main .list-view .file-name .filename-info{
+    display:none;
+    position: absolute;
+    left:0px;
+    top:0;
+}
+
+.frame-main .list-view .file-name.rename .filename-info{
+    display: block;
+    position:absolute;
+    left:80px;
+    top:10px;
+    text-indent: 0;
+}
+
+.frame-main .list-view .filename-input{
+    float: left;
+    width:184px;
+    height:18px;
+    border:1px solid #3b8cff;
+    background-color:#fff;
+    padding-left:5px;
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+.frame-main .list-view .filename-confirm,
+.frame-main .list-view .filename-cancel {
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 1px;
+    border: 1px solid #cce0fb;
+    color: #5b9ffe;
+    line-height: 22px;
+    background: #f1f5fa;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+    /*右侧列表hover的菜单栏*/
+.frame-main .list-view .operate {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: none;
+}
+
+.frame-main .list-view dd:hover .operate {
+    display: block;
+}
+
+.frame-main .list-view .operate.active {
+    display: block;
+}
+
+.frame-main .list-view .operate .undefined {
+    height: 44px;
+}
+
+.frame-main .list-view .operate .g-button {
+    margin: 0 0 0 0;
+    border:none;
+    padding:0;
+}
+
+.frame-main .list-view .operate .g-button-right {
+    display: inline-block;
+    font-size: 0;
+    width: 22px;
+    height: 44px;
+    padding: 0;
+    margin-right:5px;
+}
+
+.frame-main .list-view .operate .icon-share {
+    /*font-size: 22px;*/
+    line-height: 44px;
+    font-style: normal;
+    color: #4e91ef;
+}
+
+.frame-main .list-view .operate .icon-share:hover {
+    color: #77afff;
+}
+
+.frame-main .list-view .operate .text {
+    display: none;
+}
+
+.frame-main .list-view .g-dropdown-button {
+    position: relative;
+
+}
+
+.frame-main .list-view .g-dropdown-button .menu {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 43px);
+    width: 84px;
+    height: 108px;
+    border: 1px solid #c0d9fe;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.frame-main .list-view .g-dropdown-button .menu.active {
+    display: block;
+}
+
+.frame-main .list-view .g-button-menu {
+    display: block;
+    height: 27px;
+    width: 100%;
+    text-align: center;
+    color: #4b95ff;
+    line-height: 27px;
+    font-size: 12px;
+}
+
+.frame-main .list-view .g-button-menu:hover {
+    background-color: #f6faff;
+}
+
+.frame-main .list-view .file-size {
+    float: left;
+    width: 16%;
+    height: 44px;
+}
+
+.frame-main .list-view .ctime {
+    float: left;
+    width: 24%;
+    height: 44px;
+}
+
+/*空白时候显示*/
+.module-list {
+    width: 100%;
+    /*height: 100%;*/
+    font-size: 12px;
+}
+
+.module-list .list-empty-tips {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.module-list .module-list-view-empty {
+    background: url("../img/emptyfile.png") no-repeat scroll center 0 transparent;
+    padding-top: 146px;
+    width: 488px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    margin: -190px 0 0 -244px;
+}
+
+.no-result-file-download .no-result-file-word .up-load {
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.no-result-file-download .no-result-file-word span {
+    color: #3b8cff;
+    position: relative;
+}
+
+.no-result-file-download .no-result-file-word {
+    color: #424e67;
+    margin: 20px 0;
+    font-weight: 200;
+    position: relative;
+}
+
+/*新建文件夹*/
+.module-edit-name {
+    display: none;
+    position: absolute;
+    top:56px;
+    left:80px;
+    width:100%;
+    height:44px;
+    background: transparent;
+}
+
+.module-edit-name-grid{
+    display: none;
+    float: left;
+    width: 120px;
+    height: 127px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 4px 0 0 6px;
+    position: absolute;
+    top:56px;
+    left:0;
+}
+
+
+.module-edit-name-grid.grid-dir-large:before {
+    content: "";
+    display: block;
+    width: 84px;
+    height: 84px;
+    margin: 11px 18px 0;
+    background: url("../img/Folder_54.png") no-repeat center center;
+
+}
+/*<div class="new-dir-item-info dir-large"></div>*/
+.new-dir-item{
+    float: left;
+    padding-top:13px;
+    height:34px;
+}
+
+.module-edit-name-grid .new-dir-item {
+    width:130px;
+    margin-top: 3px;
+    border-radius: 4px;
+    position: relative;
+    height: 26px;
+    font-size: 0;
+    margin-left: -3px;
+}
+
+.new-dir-item .box {
+    width: 184px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid #3b8cff;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #3b8cff;
+    text-indent: 5px;
+}
+
+.module-edit-name-grid .new-dir-item .box {
+    width: 78px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid #3b8cff;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #3b8cff;
+    text-indent: 5px;
+}
+
+
+
+.new-dir-item .sure,
+.new-dir-item .cancel {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    vertical-align: top;
+    margin: 3px 0 0 3px;
+    border: 1px solid #3b8cff;;
+    text-align: center;
+    line-height:18px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.new-dir-item .sure:active,
+.new-dir-item .cancel:active {
+    background: rgba(0,0,0,0.1);
+}
+
+.new-dir-item .checksmall-icon,
+.new-dir-item .rename-cancel-icon {
+    font-style: normal;
+    font-size: 12px;
+    color: #3b8cff;
+}
+
+/*-右侧模式---------------------------------*/
+#mouse-frame{
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    background: rgba(0,0,0,0.1);
+}
+
+/*-拖拽空表文件夹--------------------------------*/
+#empty-drag{
+    background-color: #f1f5fa;
+    width: 120px;
+    height: 127px;
+    border-radius: 5px;
+    margin: 4px 0 0 6px;
+    position: absolute;
+    top:0;
+    left:0;
+    cursor: move;
+}
+
+#empty-drag .empty-drag-img{
+    width: 84px;
+    height: 84px;
+    margin: 18px 18px 0;
+    background: url(../img/Folder_54.png) no-repeat center center;
+}
+
+#empty-drag .empty-drag-num{
+    position: absolute;
+    left:70%;
+    top:10%;
+    font-size: 16px;
+    color:#3b8cff;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/initialization.css">
+    <link rel="stylesheet" href="./css/ico.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./icomoon/style.css">
+    <link rel="stylesheet" href="./css/tools.css">
+    <link rel="stylesheet" href="./css/message.css">
+    <link rel="stylesheet" href="./css/contextMenu.css">
+</head>
+<body>
+<div class="frame-all">
+    <!--左侧菜单----------------------->
+    <div class="frame-all">
+        <div class="frame-left">
+            <div class="module-aside">
+                <ul class="menu-list">
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="ico-font img-ico">&#xe901;</span>
+                                <span class="item-title">全部文件</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">图片</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">文档</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">视频</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">种子</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">音乐</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="item-title">其他</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="middle-button-container">
+                    <li class="item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="ico-font img-ico">&#xe900;</span>
+                                <span class="item-title">我的分享</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="bottom-button-container">
+                    <li class="item">
+                        <a href="javascript:;" class="bn-l">
+                            <span class="text">
+                                <span class="ico-font img-ico">&#xe903;</span>
+                                <span class="item-title">回收站</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="aside-absolute-container">
+                    <ul class="remaining-quota clearfix">
+                        <li class="bar ">
+                            <div class="quota-full">
+                                <span class="quota-perc"></span>
+                            </div>
+                            <div class="remainingSpace">
+                                <span class="quota-used">500</span>
+                                /
+                                <span class="quota-total">1200</span>
+                            </div>
+                            <div class="add">
+                                <a href="javascript:;">扩容</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="side-options">
+                        <span class="side-lalldownload">
+                            <a class="ico-font" href="javascript:;">&#xe916;</a>
+                            <a class="ico-font" href="javascript:;">&#xe90a;</a>
+                            <a class="ico-font" href="javascript:;">&#xe90b;</a>
+                            <a class="ico-font" href="javascript:;">&#xe913;</a>
+                        </span>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <!--右侧菜单------------------------->
+    <div class="frame-main">
+        <div class="module-toolbar">
+            <div class="default-dom">
+                <div class="list-grid-switch">
+                    <a href="javascript:;" class="ico-font list-switch show">&#xE920;</a>
+                    <a href="javascript:;" class="ico-font grid-switch">&#xE911;</a>
+                </div>
+                <div class="sort-switch" id="sort-switch">
+                    <div class="sort-switch-btn">
+                        <a href="javascript:;" class="ico-font icon-order">&#xE910;</a>
+                    </div>
+                    <div class="sort-switch-list">
+                        <span class="icon sort-item" data-title="name">
+                            <em class="ico-font icon-sort-select"></em>
+                            文件名
+                        </span>
+                        <span class="ico-font sort-item" data-title="date">
+                            <em class="icon icon-sort-select"></em>
+                            日期
+                        </span>
+                        <span class="ico-font sort-item" data-title="size">
+                            <em class="icon icon-sort-select"></em>
+                            大小
+                        </span>
+                    </div>
+                </div>
+                <div class="bar-search">
+                    <div class="form-box">
+                        <form action="" class="search-form">
+                            <input type="text" class="search-query" placeholder="请输入你要查找的内容">
+                            <span class="ico-font icon-search-del">&#xe929;</span>
+                            <span class="ico-font search-button">&#xe905;</span>
+                            <!--<span class="input-placeholder">搜索您的文件</span>-->
+                        </form>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="tools">
+                        <span class="dropdown-button">
+                            <a href="javascript:;" class="g-button ">
+                                <span class="button-right">
+                                    <em class="ico-font icon-upload">&#xe915;</em>
+                                    <span class="text">上传</span>
+                                </span>
+                            </a>
+                        </span>
+                        <span class="dropdown-button">
+                            <a href="javascript:;" class="g-button ">
+                                <span class="button-right">
+                                    <em class="ico-font icon-upload">&#xe906;</em>
+                                    <span class="text">新建文件夹</span>
+                                </span>
+                            </a>
+                        </span>
+                    </div>
+                    <!--下载等工具栏-->
+                    <div class="button-box-mark active">
+                        <a class="g-button " href="javascript:;">
+                            <span class="g-button-right">
+                                <em class="ico-font icon-share">&#xe900;</em>
+                                <span class="text">分享</span>
+                            </span>
+                        </a>
+                        <a class="g-button " href="javascript:;">
+                            <span class="g-button-right">
+                                <em class="ico-font icon-share">&#xe907;</em>
+                                <span class="text">下载</span>
+                            </span>
+                        </a>
+                        <a class="g-button " href="javascript:;">
+                            <span class="g-button-right">
+                                <em class="ico-font icon-share">&#xe903;</em>
+                                <span class="text">删除</span>
+                            </span>
+                        </a>
+                        <a class="g-button g-disabled" href="javascript:;">
+                            <span class="g-button-right">
+                                <span class="text">重命名</span>
+                            </span>
+                        </a>
+                        <a class="g-button " href="javascript:;">
+                            <span class="g-button-right">
+                                <span class="text">复制到</span>
+                            </span>
+                        </a>
+                        <a class="g-button " href="javascript:;">
+                            <span class="g-button-right">
+                                <span class="text">移动到</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="module-list">
+            <!--面包屑信息-->
+            <div class="module-history-list">
+                <span class="history-list-dir fd-left">全部文件</span>
+                <span id="history-list-tipsNum" class="history-list-tips fd-right">已全部加载,共10个</span>
+                <!--面包屑导航-->
+                <ul class="historylistmanager-history"></ul>
+            </div>
+            <div class="list-view-header">
+                <div class="list-header">
+                    <ul class="grid-cols clearfix show">
+                        <li class="col clearfix">
+                            <div class="col-item fd-left">
+                                <span class="check-icon ico-font"></span>
+                                <span class="check-all-text">全选</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-cols clearfix ">
+                        <li class="col first-col descend">
+                            <div class="col-item check">
+                                <span class="check-icon ico-font"></span>
+                                <span class="check-all-text">全选</span>
+                            </div>
+                            <span class="text">文件名</span>
+                            <span class="ico-font downtitle-up">J</span>
+                            <span class="ico-font downtitle-down">b</span>
+                        </li>
+                        <li class="col-info">
+                            <span class="text">大小</span>
+                            <span class="ico-font downtitle-up">J</span>
+                            <span class="ico-font downtitle-down">b</span>
+                        </li>
+                        <li class="col last-col">
+                            <span class="text">修改日期</span>
+                            <span class="ico-font downtitle-up">J</span>
+                            <span class="ico-font downtitle-down">b</span>
+                        </li>
+                    </ul>
+                    <div class="list-header-operatearea clearfix">
+                        <span class="count-tips">
+                            已选中17个文件/文件夹
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!--文件夹缩略图模式-->
+            <div class="grid-view-container show">
+                <div class="module-grid-view">
+                    <!--右侧文件夹-->
+                    <div class="grid-view clearfix" style="display: block">
+
+                    </div>
+                </div>
+            </div>
+            <!--文件夹列表模式-->
+            <div class="list-view-container">
+                <div class="module-list-view">
+                    <div class="list-view">
+
+                    </div>
+                </div>
+            </div>
+            <div class="module-edit-name">
+                <div class="new-dir-item">
+                    <input class="box" type="text" value="新建文件夹">
+                    <span class="sure">
+                         <em class="icofont checksmall-icon">&#xE937;</em>
+                    </span>
+                    <span class="cancel">
+                        <em class="icofont rename-cancel-icon">&#xE93a;</em>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <!--鼠标画框-->
+        <div id="mouse-frame"></div>
+        <!--鼠标右键菜单-->
+        <div class="context-menu" id="folderMenu"></div>
+        <div class="context-menu" id="contentMenu"></div>
+    </div>
+    <!--顶部的菜单栏-->
+    <div class="frame-menu">
+        <dl class="top-menu">
+            <dt class="yun-header">
+                <a href="javascript:;">百度云盘</a>
+            </dt>
+            <dd class="yun-links">
+                    <span class="links-item">
+                        <a href="javascript:;">网盘</a>
+                        <span class="subscript"></span>
+                    </span>
+                <span class="links-item">
+                        <a href="javascript:;">分享</a>
+                        <span class="subscript"></span>
+                    </span>
+                <span class="links-item">
+                        <a href="javascript:;">更多</a>
+                        <span class="subscript"></span>
+                    </span>
+            </dd>
+            <dd class="yun-info">
+                    <span class="app-user-info">
+                        <span class="user-photo-box">
+                            <i></i>
+                        </span>
+                        <span class="user-name">百度云</span>
+                        <a href="javascript:;" class="user-rank"></a>
+                        <i class="img-ico ico-font">&#xE933;</i>
+                    </span>
+                <i class="line"></i>
+                <a href="javascript:;" class="app-download">客户端下载</a>
+                <a href="javascript:;" class="ico-inform ico-font">&#xE922;</a>
+                <a href="javascript:;" class="ico-suggest ico-font">&#xE928;</a>
+                <a href="javascript:;" class="ico-skin ico-font">&#xE904;</a>
+                <a href="javascript:;" class="VIP">会员中心</a>
+            </dd>
+            <dd class="yun-onico">
+                <a class="union-hot" href="javasript:;">超级会员 限时优惠</a>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div id="module-tip" style="top: 65px; left: 50%; margin-left: -59.3889px;">
+    <span class="tip-msg"></span>
+</div>
+<div id="module-shade" style="display: none;"></div>
+<script src="./js/data.js"></script>
+<script src="./js/jquery-3.2.0.js"></script>
+<script src="./js/createHTML.js"></script>
+<script src="./js/tools.js"></script>
+<script src="./js/yunTool.js"></script>
+<script src="./js/view.js"></script>
+<script src="./js/drag.js"></script>
+<script src="./js/message.js"></script>
+<script src="./js/contentMenu.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
