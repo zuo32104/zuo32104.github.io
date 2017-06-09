@@ -1,0 +1,23 @@
+body,h1,h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font:14px "Segoe UI","wf_segoe-ui_normal","Arial","微软雅黑";
+	color:#000;
+}
+input{
+	margin: 0;
+	padding:0;
+	border: none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	vertical-align:top;
+}

@@ -1,0 +1,530 @@
+.content{
+	height:1436px;
+	background-color: #f7f7f7;
+}
+.content .banner{
+	height:420px;
+	background:url(../../images/aircraft/Cii-TlhAAiiIWAT3AAGv_0MaKIEAAFCTQAcFl0AAbAX85.jpeg) no-repeat center;
+}
+.content .banner .banner_inner{
+	width:1202px;
+	height:420px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.content .banner .banner_box{
+	width:558px;
+	margin-top:36px;
+	position: relative;
+}
+.content .banner .banner_box .head{
+	position: relative;
+	z-index: 2;
+	width:558px;
+	height:49px;
+	border-bottom: 1px solid #bbb;
+
+}
+.content .banner .banner_box .head .pngImg{
+	float:left;
+	width:23px;
+	height:23px;
+	margin: 18px 10px 0 17px;
+	background: url(../../images/aircraft/xubitu2.png) no-repeat 0 -25px;
+}
+.content .banner .banner_box .head .title{
+	float:left;
+	height:23px;
+	font:20px arial,"微软雅黑";
+	color:#FFF;
+	line-height: 22px;
+	margin-top:18px;
+}
+.content .banner .banner_box .main{
+	position: relative;
+	z-index: 2;
+	width:558px;
+	margin-top:18px
+}
+.content .banner .banner_box .main .main_box{
+	width:558px;
+	
+}
+.content .banner .banner_box .main .main_box .sail{
+	width:558px;
+	height:30px;
+
+	
+}
+.content .banner .banner_box .main .main_box .sail .text{
+	float:left;
+	width:77px;
+	height:30px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+	padding-right:13px;
+	text-align: right;
+}
+.content .banner .banner_box .main .main_box .sail .sort{
+	float:left;
+	height:26px;
+	padding:2px 2px;
+	background-color:#fff ;
+	border-radius:2px;
+}
+.content .banner .banner_box .main .main_box .sail .sort .ticket{
+	float:left;
+	width:79px;
+	height:26px;
+	background-color:#42b212;
+	border-radius:2px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	margin-right:2px;
+}
+.content .banner .banner_box .main .main_box .sail .sort .bg_color{
+	background-color:#fff;
+	color:#42b312;
+}
+.content .banner .banner_box .main .main_box .depart{
+	width:558px;
+	height:30px;
+	border: none;
+	
+}
+.content .banner .banner_box .main .main_box .depart .left{
+	float:left;
+	width:281px;
+	height:30px;
+	
+}
+.content .banner .banner_box .main .main_box .depart .left .info{
+	float:left;
+	width:77px;
+	height:30px;
+	padding-right:13px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+	text-align: right;
+}
+.content .banner .banner_box .main .main_box .depart .left .textbox{
+	float:left;
+	width:149px;
+	height:28px;
+	border: 1px solid #ddd;
+	padding-left:9px;
+	border-radius: 2px;
+	outline: none;
+	line-height: 28px;
+}
+.content .banner .banner_box .main .main_box .depart .right{
+	float:left;
+	width:277px;
+	height:30px;
+
+}
+.content .banner .banner_box .main .main_box .depart .right .info{
+	float:left;
+	width:77px;
+	height:30px;
+	padding-right:13px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+	text-align: right;
+}
+.content .banner .banner_box .main .main_box .depart .right .text{
+	float:left;
+	width:168px;
+	height:28px;
+	border: 1px solid #ddd;
+	border-radius:2px;
+	
+}
+.content .banner .banner_box .main .main_box .depart .right .text .textbox{
+	float:left;
+	width:129px;
+	height:28px;	
+	padding-left:9px;
+	line-height: 28px;
+	outline: none;
+	background-color: #fff;
+}
+.content .banner .banner_box .main .main_box .depart .right .text .bg{
+	float:left;
+	width:30px;
+	height:28px;
+	background-color: #fff;
+}
+.content .banner .banner_box .main .main_box .depart .right .text .bg .pngImg{
+	float:left;
+	width:20px;
+	height:15px;
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -11px 0;
+	margin-top:8px;
+	
+}
+.content .banner .banner_box .main .main_box .huan{
+	position: absolute;
+	left:255px;
+	top:48px;
+	width:24px;
+	height:55px;
+}
+.content .banner .banner_box .main .main_box .huan .line{
+	float:left;
+	width:14px;
+	height:55px;
+	background:url(../../images/aircraft/xubitu2.png) no-repeat 0 -49px;
+}
+.content .banner .banner_box .main .main_box .huan .pngImg{
+	position: absolute;
+	left:2px;
+	top:16px;
+	width:22px;
+	height:22px;
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -34px 0px;
+}
+.content .banner .banner_box .main .main_box .passenger{
+	width:558px;
+	height:30px;
+}
+.content .banner .banner_box .main .main_box .passenger .left{
+	float:left;
+	width:77px;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	color:#fff;
+	padding-right:13px;
+	text-align: right;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang{
+	float:left;
+	width:182px;
+	height:30px;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select{
+	float:left;
+	width:58px;
+	height:28px;
+	background-color: #fff;
+	border:1px solid #ddd;
+	position: relative;
+	z-index: 5;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select:hover .num{
+	display:block;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select .arrow{
+	position: absolute;
+	top:14px;
+	right:9px;
+	width:0;
+	height:0;
+	border-top:4px solid #000;
+	border-bottom:0 solid #fff;
+	border-left:4px solid #fff;
+	border-right:4px solid #fff;
+	overflow: hidden;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select .text{
+	position: absolute;
+	top:0;
+	left:0px;
+	font-size:12px;
+	color:#333;
+	line-height: 30px;
+	padding-left:10px;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select .num{
+	display: none;
+	width:100%;
+	margin-top:30px;
+	background-color:#fff;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .select .num .item{
+	height:24px;
+	padding:0 10px;
+	font-size:12px;
+	color:#333;
+	line-height: 24px;
+}
+.content .banner .banner_box .main .main_box .passenger .xialakuang .info{
+	float:left;
+	width:112px;
+	height:30px;
+	font: 12px arial,"宋体";
+	color: #fff;
+	line-height: 30px;
+	padding-left:10px;
+}
+.content .banner .banner_box .main .main_box  .advanced-search{
+	width:558px;
+	height:30px;
+}
+.content .banner .banner_box .main .main_box  .advanced-search .name{
+	float:left;
+	height:30px;
+	padding-left:89px;
+	position: relative;
+}
+.content .banner .banner_box .main .main_box  .advanced-search .name .text{
+	float:left;
+	padding-right:22px;
+	font-size: 14px;
+	color: #42b312;
+	line-height:30px;
+}
+.content .banner .banner_box .main .main_box  .advanced-search .name .pngImg{
+	position:absolute;
+	right:6px;
+	top:12px;
+	width:11px;
+	height:6px;
+	background: url(../../images/aircraft/xubitu2.png) no-repeat -79px 0;
+	overflow: hidden;
+}
+/*.content .banner .banner_box .main .main_box .changwei{
+	width:558px;
+	height:30px;
+	background:skyblue;
+	display: none;
+}*/
+.content .banner .banner_box .main .main_box .button{
+	width:558px;
+	height:30px;
+	padding-bottom: 16px;
+}
+.content .banner .banner_box .main .main_box .button .btn{
+	width:160px;
+	height:35px;
+	background-color: #ff8800;
+	margin-left:89px;
+	font:18px arial,"宋体";
+	color:#fff;
+	line-height:30px;
+}
+.content .banner .banner_btn{
+	position: absolute;
+	left:580px;
+	bottom:40px;
+	height:25px;
+	background: #8a8b8b;
+	padding:0 15px;
+	border-radius:13px;
+	white-space: nowrap;
+}
+.content .banner  .banner_btn .circle{
+	float:left;
+	width:17px;
+	height:17px;
+	margin-top:4px;
+	margin-right:10px;
+	background-color: #ffffff;
+	border-radius:50%;
+}
+.content .banner .banner_box .bg_opacity{
+	position: absolute;
+	left:0;
+	top: 0;
+	width:558px;
+	height:322px;
+	background:#000;
+	opacity:.3;
+	filter:alpha(opacity=30);
+	z-index: 1;
+}
+.content .at-a-sale{
+	width:1202px;
+	margin:14px auto 0;
+	
+}
+.content .at-a-sale .head{
+	height: 58px;
+	
+}
+.content .at-a-sale .head .title{
+	font:18px arial,"宋体";
+	line-height: 58px;;
+}
+.content .at-a-sale .wrap{
+	width:1202px;
+	border:1px solid #eaeaea;
+	background: #fff;
+}
+.content .at-a-sale .wrap .main{
+	width:1202px;
+	
+}
+.content .at-a-sale .wrap .main .head{
+	height:36px;
+	border-bottom: 1px solid #eaeaea;
+}
+.content .at-a-sale .wrap .main .head .name{
+	float:left;
+	height:36px;
+	padding-left:27px;
+	padding-right:48px;
+	font:18px arial,"宋体";
+	color:#339900;
+	line-height: 36px;;
+}
+.content .at-a-sale .wrap .main .info{
+	float: left;
+	height:36px;
+}
+.content .at-a-sale .wrap .main .info .danxuankuang{
+	vertical-align: -3px;
+
+}
+.content .at-a-sale .wrap .main .info .text{
+	font:12px arial,"宋体";
+	color:#999;
+	line-height: 36px;
+}
+.content .at-a-sale .wrap .main .main_content{
+	
+}
+.content .at-a-sale .wrap .main .main_content .wrap{
+	float:left;
+	width: 299px;
+	overflow: hidden;
+	border: none;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item{
+	
+	width:299px;
+	height:40px;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item .info{
+	width:298px;
+	height:40px;
+
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item .info .left{
+	float:left;
+	height:40px;
+	padding-left: 27px;
+	font:12px "宋体";
+	color:#333;
+	line-height: 40px;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item .info .right{
+	float:right;
+	height:40px;
+	padding-right: 20px;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item .info .right .shuzi{
+	
+	font:20px arial,"宋体";
+	color:#ff6600;
+	line-height: 38px;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .item .info .right .sub{
+	font:12px "宋体";
+	color:#666;
+	line-height: 40px;
+}
+.content .at-a-sale .wrap .main .main_content .wrap .line{
+	float:right;
+	width:1px;
+	height:40px;
+	background: url(../../images/aircraft/xubitu2.png) no-repeat -23px -49px;
+	overflow: hidden;
+}
+.content .at-a-sale .wrap .main .main_content .name{
+	width:299px;
+	height:40px;
+}
+.content .at-a-sale .wrap .main .main_content .name .pngImg{
+	float:left;
+	width: 16px;
+	height:16px;
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -42px -25px;
+	margin:10px 11px 0 27px;
+	
+}
+.content .at-a-sale .wrap .main .main_content .name .ico_2{
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -58px -25px;
+}
+.content .at-a-sale .wrap .main .main_content .name .ico_3{
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -74px -25px;
+}
+
+.content .at-a-sale .wrap .main .main_content .name .ico_4{
+	background:url(../../images/aircraft/xubitu2.png) no-repeat -90px -25px;
+}
+
+
+.content .at-a-sale .wrap .main .main_content .name .text{
+	float: left;
+	height:36px;
+	padding-top:4px;
+	font:12px "宋体";
+	color:#666666;
+	line-height:36px;
+}
+.content .at-a-sale .wrap .main .main_content .name .line{
+	float:right;
+	width:1px;
+	height:40px;
+	background: url(../../images/aircraft/xubitu2.png) no-repeat -23px -49px;
+}
+.content .issue{
+	width:1202px;
+	height:297px;
+	margin: 133px auto 0;
+}
+.content .issue .head{
+	height:27px;
+	border-bottom: 3px solid #42b312;
+	overflow: hidden;
+}
+.content .issue .head .title{
+	font:18px "宋体";
+	color:#28546a;
+	line-height:28px;
+	padding-left:10px;
+}
+.content .issue .wrap{
+	width:1202px;
+	height:180px;
+
+}
+.content .issue .wrap .item{
+	width:260px;
+	padding-right:39px;
+
+}
+.content .issue .wrap .item .name{
+	float:left;
+	width:223px;
+	height:22px;
+	padding:25px 0 0 37px;
+	font: 16px arial,"微软雅黑";
+	color: #465a64;
+	line-height: 22px;
+}
+.content .issue .wrap .item .text{
+	float:left;
+	width:223px;
+	padding-left:37px;
+	
+}
+.content .issue .wrap .item .text .info{
+	font:12px arial,"微软雅黑";
+	color: #666;
+	line-height:25px;
+}
+.content .issue .wrap .item .text .more{
+	font:12px arial,"微软雅黑";
+	color: #999999;
+	line-height:25px;
+}

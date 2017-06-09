@@ -1,0 +1,27 @@
+body,h1,h2,h3,h4,p,dd{
+	margin:0;
+}
+a{
+	text-decoration:none;
+	font:12px arial,"微软雅黑";
+	color:#333;
+}
+ul,ol,dl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+img{
+	vertical-align:top;
+	border:none;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline:none;
+}
+select{
+	border: none;
+	list-style: none;
+}

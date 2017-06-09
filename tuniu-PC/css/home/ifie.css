@@ -1,0 +1,108 @@
+.head .head_top .topnav .topnav_login{
+	display:inline;
+}
+.head .head_top .topnav .topnav_nav{
+	display:inline;
+}
+.head .head_top .topnav .topnav_ioc{
+	display:inline;
+}
+.head .head_inner .head_inner_title{
+	display:inline;
+}
+.head .head_inner .head_inner_site{
+	display:inline;
+}
+.head .head_inner .head_inner_search{
+	display:inline;
+}
+
+.banner_left{
+	display:inline;
+}
+.banner_middle{
+	display:inline;
+}
+.banner_right{
+	display:inline;
+}
+
+.hot .hot_nav{
+	display:inline;
+}
+.hot .body_left{
+	overflow: hidden;
+}
+.hot .body_right{
+	overflow: hidden;
+}
+.hot_content .item_img{
+	display:inline;
+}
+.hot_content .item_text{
+	display:inline;
+}
+.arr{
+	overflow: hidden;
+}
+.topnav .topnav_right .nav .arrows{
+	overflow: hidden;
+	zoom:1;
+}
+.head_inner_site .address_arr{
+	overflow: hidden;
+}
+.search_content .content_bj{
+	overflow: hidden;
+}
+.head_inner .head_inner_site i{
+	overflow: hidden;
+}
+.head_inner_content{
+	overflow: hidden;
+}
+.head_inner_content .contact .contact_info{
+	overflow: hidden;
+}
+.head_inner_content .contact .contact_name{
+	display:inline;
+	zoom:1;
+}
+.gr_arrow{
+	overflow: hidden;
+}
+.ioc_view{
+	overflow: hidden;
+}
+
+
+.banner_left .info .info_tour .tour .item{
+	vertical-align:top ;
+}
+.hot .hot_nav{
+	position:absolute;
+}
+.hot_content .body_left .info a span{
+	font:bold 13px arial,"微软雅黑";
+	color:#333;
+	line-height:28px;
+}
+.Bestseller_content .info .item{
+	float:left;
+}
+.activity .activity_content .item{
+	float:left;
+}
+.partner .partner_text .content_text .title{
+	display:inline;
+}
+.partner .partner_text .content_text .item{
+	display:inline;
+}
+.foot .intro .intro_box .go-journey{
+	display:inline;
+}
+.foot .foot_ad2 .ad2_wrap .item{
+	display: inline;
+	zoom: 1;
+}

@@ -1,0 +1,622 @@
+.content{
+	
+}
+.content .banner{
+	height: 569px;
+	background-color:#f4f4f4;
+	overflow: hidden;
+}
+.content .banner .main{
+	width:1190px;
+	height:569px;
+	margin: 0 auto;
+}
+.content .banner .main .up{
+	
+	height:330px;
+	padding-top:20px;
+}
+.content .banner .main .up .hotel{
+	float:left;
+	width:384px;
+	height:324px;
+	border:3px solid #37c249;
+	background-color:#fff;
+}
+.content .banner .main .up .hotel .hotel_head{
+	width:308px;
+	height:60px;
+	margin:0 auto ;
+}
+.content .banner .main .up .hotel .hotel_head .text{
+	float:left;
+	width:154px;
+	height:48px;
+	box-sizing:border-box;
+	border-bottom:1px solid #dddddd;
+	font-size: 18px;
+	color: #999999;
+	line-height: 48px;
+	text-align: center;
+}
+
+.content .banner .main .up .hotel .hotel_head a:hover, .active{
+	font-size: 18px;
+	font-weight: bold;
+	color: #37c282 !important;
+	border-bottom:2px solid #37c282 !important;
+}
+
+
+.content .banner .main .up .hotel .hotel_list{
+	float: left;
+	width:346px;
+	height:264px;
+	padding-left: 38px;
+}
+
+.content .banner .main .up .hotel .hotel_list .wrap{
+	height:32px;
+	padding-top:15px;
+
+	overflow: hidden;
+}
+
+
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_title{
+	float: left;
+	width:70px;
+	height:32px;
+	font: 14px arial,"微软雅黑";
+	color: #666;
+	line-height: 32px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_content{
+	float:left;
+	width:140px;
+	height:30px;
+}
+
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_content .info{
+	float:left;
+	width:130px;
+	height:30px;
+	padding:0 5px;
+	border:1px solid #e6e6e6;
+	background:#fff;
+	font: 14px arial,"微软雅黑";
+	color: #666;
+	line-height: 30px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_more{
+	float:left;
+	width:84px;
+	height:32px;
+	padding-left:12px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_more .name{
+	float:left;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_more .name .text{
+	float:left;
+	height:32px;
+	font: 14px arial,"微软雅黑";
+	color: #37c249;
+	line-height: 32px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_more .name .pngimg{
+	float: left;
+	width:7px;
+	height:4px;
+	background: url(../../images/hotel/xubitu2.png) no-repeat -108px -25px;
+	margin:14px 0 0 8px;
+	overflow: hidden;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_time{
+	float:left;
+	width:239px;
+	height:30px;
+	position: relative;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_time .info{
+	float:left;
+	width:239px;
+	height:30px;
+	padding:0 5px;
+	border:1px solid #e6e6e6;
+	background:#fff;
+	font: 14px arial,"微软雅黑";
+	color: #666;
+	line-height: 30px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_time .date-YTD{
+	position: absolute;
+	left: 5px;
+	top: 0;
+	height:30px;
+	font:12px arial,"微软雅黑";
+	color:#bbbbbb;
+	line-height: 30px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_time .date-info{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height:30px;
+	font:12px arial,"微软雅黑";
+	color:#bbbbbb;
+	line-height: 30px;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_time .date-ico{
+	position: absolute;
+	right: 15px;
+	top: 0;
+	width:16px;
+	height:13px;
+	margin-top:7px;
+	background:url(../../images/hotel/xubitu2.png) no-repeat -231px 0;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_submit{
+	float:left;
+	width:239px;
+	height:30px;
+	position: relative;
+	background-color: saddlebrown;
+}
+.content .banner .main .up .hotel .hotel_list .wrap .wrap_submit .submit{
+	float:left;
+	width:239px;
+	height:30px;
+	background:#ff9419;
+	font: 18px arial,"微软雅黑";
+	color: #fff;
+	line-height: 30px;
+}
+
+.content .banner .main .up .activity{
+	float:right;
+	width:780px;
+	height:330px;
+	background-color: saddlebrown;
+	position:relative;
+}
+.content .banner .main .up .activity .wrap{
+	width:780px;
+	height:330px;
+}
+.content .banner .main .up .activity .wrap .name{
+	float:left;
+	width:780px;
+	height:330px;
+	position: relative;
+}
+.content .banner .main .up .activity .wrap .name .ico{
+	position:absolute;
+	top: 0;
+	right:15px;
+	width:47px;
+	height:18px;
+	background: url(../../images/hotel/xubitu2.png) no-repeat -118px -28px;
+}
+
+.content .banner .main .up .activity .wrap .name .img{
+	width:780px;
+	height:330px;
+}
+.content .banner .main .up .activity .nav{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width:780px;
+	height:30px;
+}
+.content .banner .main .up .activity .nav .item{
+	float:left;
+	width:130px;
+	height:30px;
+	position: relative;
+}
+.content .banner .main .up .activity .nav .item .name{
+	position: relative;
+	float: left;
+	width:130px;
+	height:30px;
+	font:12px arial,"微软雅黑";
+	color:#3c3e56;
+	line-height: 30px;
+	text-align:center;
+	z-index: 2;
+}
+
+.content .banner .main .up .activity .nav .item  .bg{
+	position: absolute;
+	top: 0;
+	right:0;
+	width:129px;
+	height:30px;
+	background-color:#fff;
+	opacity:0.5;
+	z-index: 1;
+	filter:alpha(opacity=50) ;
+}
+
+.content .banner .main .down{
+	height:169px;
+	margin-top:20px;
+}
+.content .banner .main .down .title{
+	float: left;
+	width:150px;
+	height:169px;
+}
+.content .banner .main .down .title .name{
+	float: left;
+	width:150px;
+	height:169px;
+	overflow: hidden;
+}
+.content .banner .main .down .item{
+	float: left;
+	width:259px;
+	height:160px;
+	padding-top:9px;
+	margin-left:1px;
+}
+.content .banner .main .down .item .name{
+	float: left;
+	width:259px;
+	height:160px;
+}
+.content .hot{
+	width:1190px;
+	height:611px;
+	margin: 0 auto;
+	background:#fff;
+}
+.content .hot .hot_head{
+	height:93px;
+}
+.content .hot .hot_head .title{
+	float:left;
+	width:180px;
+	height:93px;
+	margin-right: 17px;
+}
+.content .hot .hot_head .title .line{
+	float: left;
+	width:5px;
+	height: 22px;
+	background-color:#3ea3ff;
+	margin:45px 10px 0 0;
+}
+.content .hot .hot_head .title .name{
+	float: left;
+	height:76px;
+	padding-top:17px;
+	font: 24px arial,"微软雅黑";
+	color: #222;
+	line-height: 76px;
+}
+.content .hot .hot_head .nav{
+	float: left;
+	height:24px;
+	padding-top:46px;
+}
+.content .hot .hot_head .nav .item{
+	float: left;
+	height:24px;
+}
+.content .hot .hot_head .nav .item .name{
+	float: left;
+	height:24px;
+	font:16px arial,"微软雅黑";
+	color:#666;
+	line-height: 24px;
+	padding:0 10px;
+	margin:0 7px;
+}
+.content .hot .hot_head .nav .item .first{
+	color: #fff;
+	background-color: #3ea3ff;
+	border-radius:12px;
+}
+.content .hot .hot_head .more{
+	float: right;
+	height:24px;
+	padding-top:46px;
+}
+.content .hot .hot_head .more .name{
+	float: left;
+	height:24px;
+}
+.content .hot .hot_head .more .name .text{
+	float: left;
+	height:24px;
+	font:16px arial,"微软雅黑";
+	color:#666;
+	line-height: 24px;
+}
+.content .hot .hot_head .more .name .pngimg{
+	float: left;
+	width:5px;
+	height:9px;
+	background:url(../../images/hotel/xubitu2.png) no-repeat -171px -25px;
+	margin:8px 0 0 6px;
+	overflow: hidden;
+}
+.content .hot .main{
+	height:518px;
+}
+.content .hot .main .sideBar{
+	float:left;
+	width:230px;
+	height:518px;
+	overflow: hidden;
+}
+.content .hot .main .sidebar .name{
+	float:left;
+	width:230px;
+	height:518px;
+	overflow: hidden;
+}
+.content .hot .main .wrap{
+	float: right;
+	width:960px;
+	height:514px;
+	padding-top:2px;
+	border-top:2px solid #e6e6e6;
+}
+.content .hot .main .wrap .item{
+	float:left;
+	width:305px;
+	height:241px;
+	margin: 16px 0 0 15px;	
+	background-color:#fff;
+	*display: inline;
+	
+}
+.content .hot .main .wrap .item .info{
+	
+	width:305px;
+	height:190px;
+}
+.content .hot .main .wrap .item .info .name{
+	float: left;
+	width:305px;
+	height:190px;
+	position:relative;
+}
+
+.content .hot .main .wrap .item .info .name  .img{
+	width:305px;
+	height:190px;
+}
+.content .hot .main .wrap .item .info .name .pngimg{
+	position: absolute;
+	top: 0;
+	right:0px;
+	height:25px;
+	padding:0 10px;
+	font:14px arial,"微软雅黑";
+	color: #fff;
+	line-height: 25px;
+	background-color:#eb2a42;
+}
+.content .hot .main .wrap .item .info .text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:305px;
+	height:38px;
+}
+.content .hot .main .wrap .item .info .text .left{
+	float: left;
+	height:38px;
+	padding-left:15px;
+	font:18px arial,"微软雅黑";
+	color:#fff;
+	line-height: 38px;
+	position: relative;
+	z-index: 2;
+}
+.content .hot .main .wrap .item .info .text .right{
+	float: right;
+	height:38px;
+	padding-right:10px;
+	font:12px arial,"微软雅黑";
+	color:#fff;
+	line-height: 38px;
+	position: relative;
+	z-index: 2;
+}
+.content .hot .main .wrap .item .info .text .bg{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:305px;
+	height:38px;
+	background-color: #000;
+	opacity:0.5;
+	z-index: 1;
+	filter:alpha(opacity=50);
+}
+.content .hot .main .wrap .item .tag{
+	width:303px;
+	height:50px;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	
+}
+.content .hot .main .wrap .item .tag .left{
+	float:left;
+	height:40px;
+	padding:10px 0 0 12px;
+	font:12px arial,"微软雅黑";
+	color:#ff6600;
+	line-height: 40px;
+	
+}
+.content .hot .main .wrap .item .tag .left span{
+	font:bold 24px "微软雅黑";
+	color:#ff6600;
+	line-height: 32px;
+	word-spacing: -6px;
+	
+}
+.content .hot .main .wrap .item .tag .right{
+	float:right;
+	width:68px;
+	height:24px;
+	padding:12px 13px 0 0;
+	
+	
+}
+.content .hot .main .wrap .item .tag .right .name{
+	float:left;
+	width:68px;
+	height:24px;
+	font:12px arial,"微软雅黑";
+	color:#fff;
+	line-height: 24px;
+	text-align: center;
+	background-color:#ff9419;
+}
+
+
+.content .hotel-ts{
+	width:1190px;
+	height:306px;
+	margin: 0 auto;
+	background:#fff;
+	padding-top:32px;
+}
+.content .hotel-ts .hotel_head{
+	height:46px;
+}
+.content .hotel-ts .hotel_head .title{
+	float:left;
+	width:180px;
+	height:46px;
+	margin-right: 17px;
+}
+.content .hotel-ts .hotel_head .title .line{
+	float: left;
+	width:5px;
+	height: 22px;
+	background-color:#3ea3ff;
+	margin:13px 10px 0 0;
+}
+.content .hotel-ts .hotel_head .title .name{
+	float: left;
+	height:46px;
+	font: 24px arial,"微软雅黑";
+	color: #222;
+	line-height: 46px;
+}
+.content .hotel-ts .main{
+	height:260px;
+}
+.content .hotel-ts .main .name{
+	float:left;
+	width:160px;
+	height:260px;
+	overflow: hidden;
+}
+.content .hotel-ts .main .first{
+	width:390px;
+}
+
+.content .recommend{
+	width:1190px;
+	height:229px;
+	margin: 0 auto;
+	background:#fff;
+	padding-top:32px;
+}
+.content .recommend .recommend_head{
+	height:46px;
+}
+.content .recommend .recommend_head .title{
+	float:left;
+	width:180px;
+	height:46px;
+	margin-right: 17px;
+}
+.content .recommend .recommend_head .title .line{
+	float: left;
+	width:5px;
+	height: 22px;
+	background-color:#3ea3ff;
+	margin:13px 10px 0 0;
+}
+.content .recommend .recommend_head .title .name{
+	float: left;
+	height:46px;
+	font: 24px arial,"微软雅黑";
+	color: #222;
+	line-height: 46px;
+}
+.content .recommend .main{
+	width:1190px;
+	height:132px;
+}
+.content .recommend .main .left{
+	float:left;
+	width:28px;
+	height:130px;
+	border:1px solid #d7d7d7;
+}
+.content .recommend .main .left .pngimg{
+	float:left;
+	width:11px;
+	height:17px;
+	background: url(../../images/hotel/xubitu2.png)no-repeat -182px -25px;
+	margin:54px 0 0 9px;
+}
+.content .recommend .main .right{
+	float:right;
+	width:28px;
+	height:130px;
+	border:1px solid #d7d7d7;
+}
+.content .recommend .main .right .pngimg{
+	float:left;
+	width:11px;
+	height:17px;
+	background: url(../../images/hotel/xubitu2.png)no-repeat -196px -25px;
+	margin:54px 0 0 9px;
+}
+.content .recommend .main .wrap{
+	float:left;
+	width:1120px;
+	height:130px;
+	padding-left:10px;
+	border-top:1px solid #d7d7d7;
+	border-bottom:1px solid #d7d7d7;
+}
+.content .recommend .main .wrap .item{
+	float: left;
+	width:110px;
+	height:130px;
+	padding-right:30px;
+}
+.content .recommend .main .wrap .item .name{
+	float: left;
+	width:110px;
+	height:108px;
+	margin-top:13px;
+}
+.content .recommend .main .wrap .item .name .img{
+	width:110px;
+	height:80px;
+}
+.content .recommend .main .wrap .item .name  .text{
+	float: left;
+	width:110px;
+	height:28px;
+	font:12px arial,"微软雅黑";
+	color: #404040;
+	line-height: 28px;
+	text-align: center;
+}

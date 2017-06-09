@@ -1,0 +1,184 @@
+.mg_r_none{
+	margin-right:0 !important;
+}
+.mg_b_none{
+	margin-bottom:0 !important;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.mg_t9{
+	margin-top:9px;
+}
+.mg_t6{
+	margin-top:6px;
+}
+.mg_t10{
+	margin-top:10px;
+}
+.mg_t16{
+	margin-top:16px;
+}
+.mg_t28{
+	margin-top:28px;
+}
+.mg_t21{
+	margin-top:21px;
+}
+.mg_t19{
+	margin-top:19px;
+}
+.mg_t15{
+	margin-top:15px;
+}
+.mg_t33{
+	margin-top:33px;
+}
+.mg_r15{
+	margin-right:15px;
+}
+.mg_r16{
+	margin-right:16px;
+}
+.mg_r36{
+	margin-right:36px !important;
+}
+.mg_b15{
+	margin-bottom:15px;
+}
+.pd_b16{
+	padding-bottom:16px;
+}
+.pd_t6{
+	padding-top:6px;
+}
+.pd_n{
+	padding:0;
+}
+.float_l{
+	float:left;
+}
+.float_r{
+	float:right;
+}
+.w_59{
+	width:59px !important;
+}
+.orange{
+	color:#ff8800 !important;
+}
+.blank{
+	background-color:#000 !important;
+}
+.blue1{
+	color:#03847d !important;
+}
+.white{
+	color:#fff !important;
+}
+
+.pd_l10{
+	padding-left:10px !important;
+}
+.pd_l40{
+	padding-left:40px !important;
+}
+.hg_125{
+	height:125px !important;
+}
+.gr_arrow{
+	position:absolute;
+	right:7px;
+	top:17px;
+	width:8px;
+	height:4px;
+	background:url(../../images/xubitu.png) no-repeat 0 -417px;
+}
+.ioc_view{
+	position:absolute;
+	left:38px;
+	top:-7px;
+	width:36px;
+	height:17px;
+	background:url(../../images/xubitu.png) no-repeat 0 -349px;
+	overflow:hidden;
+	
+}
+.ioc_hot{ 
+	position:absolute;
+	left:38px;
+	top:-7px;
+	width:22px;
+	height:16px;
+	background:url(../../images/xubitu.png) no-repeat 0 -368px;
+	overflow:hidden;
+	
+}
+.ioc_Disney{ 
+	position:absolute;
+	left:38px;
+	top:-7px;
+	width:51px;
+	height:16px;
+	background:url(../../images/xubitu.png) no-repeat 0 -386px;
+	overflow:hidden;
+	
+}
+
+.ioc_Poop{ 
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:41px;
+	height:18px;
+	background:url(../../images/xubitu.png) no-repeat 0 -1032px;
+	overflow:hidden;
+}
+.ioc_niuren{ 
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:64px;
+	height:20px;
+	background:url(../../images/xubitu.png) no-repeat -226px -1032px;
+	overflow:hidden;
+}
+.ico_one{ 
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:12px;
+	height:15px;
+	background:url(../../images/xubitu.png) no-repeat 0 -1409px;
+	overflow:hidden;
+}
+.ico_two{ 
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:12px;
+	height:15px;
+	background:url(../../images/xubitu.png) no-repeat -13px -1409px;
+	overflow:hidden;
+}
+.ico_three{ 
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:12px;
+	height:15px;
+	background:url(../../images/xubitu.png) no-repeat -26px -1409px;
+	overflow:hidden;
+}
+
+.bd_b{
+	border-bottom:3px solid #d74568;
+}
+.ta_r{
+	text-align: right;
+}
+.color_orange{
+	color:#ff6600 !important;
+}
